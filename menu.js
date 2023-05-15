@@ -64,7 +64,7 @@ menuBtn.close.onclick = function()
     menuDisplay();
 }
 
-if(window.location.pathname == "/index.html")
+if(window.location.pathname == "./index.html")
 {
     var memeHref = 
     [

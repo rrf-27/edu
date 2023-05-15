@@ -18,8 +18,8 @@ var lightMode =
 {
     color: "rgb(243, 243, 243)",
     bck: "rgb(15, 15, 15)",
-    imgSrc: "../image/light-bulb-on.png",
-    imgSrcBot: "../image/earth-bulb-light-off.png",
+    imgSrc: "./image/light-bulb-on.png",
+    imgSrcBot: "./image/earth-bulb-light-off.png",
     sBck: "#C2C2C2",
     sBallPlaceBck: "#A6A6A6",
     sBallBck: "#737373",
@@ -31,8 +31,8 @@ var nightMode =
 {
     color: "rgb(15, 15, 15)",
     bck: "rgb(243, 243, 243)",
-    imgSrc: "../image/light-bulb-off.png",
-    imgSrcBot: "../image/earth-bulb-light.png",
+    imgSrc: "./image/light-bulb-off.png",
+    imgSrcBot: "./image/earth-bulb-light.png",
     sBck: "rgb(236, 236, 236)",
     sBallPlaceBck: "rgb(217, 217, 217)",
     sBallBck: "rgb(175, 173, 173)",

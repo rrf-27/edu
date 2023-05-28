@@ -206,6 +206,7 @@
     max-width: calc(100% - var(--small-btn-h) - var(--red-btn-h));
     max-height: calc(50% - 3*var(--op-h)/2 - 1.563rem);
     height: auto;
+    text-align: center;
 }
 
 

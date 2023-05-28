@@ -35,8 +35,8 @@ nav .p-lines, nav .p-lines::before, nav .p-lines::after {
     grid-template-areas: 
     'm a e'
     'mname aname ename'
-    'r b n'
-    'rname bname n';
+    'r b t'
+    'rname bname tname';
 }
 
 .img-place img {
@@ -77,8 +77,8 @@ main .center-content-flex {
 .b {
     grid-area: b;
 }
-.n {
-    grid-area: n;
+.t {
+    grid-area: t;
 }
 
 .m-name {
@@ -96,6 +96,9 @@ main .center-content-flex {
 .b-name {
     grid-area: bname;
 }
+.t-name {
+    grid-area: tname;
+}
 
 #pop-art, #meme-time {
     color: rgba(20, 20, 20, 1);
@@ -111,8 +114,8 @@ main .center-content-flex {
         'mname aname'
         'e r'
         'ename rname'
-        'b n'
-        'bname n';
+        'b t'
+        'bname tname';
     }
     .r, .e {
         width: 70%;
@@ -134,7 +137,9 @@ main .center-content-flex {
         'r'
         'rname'
         'b'
-        'bname';
+        'bname'
+        't'
+        'tname';
     }
     .content img {
         width: 50%;

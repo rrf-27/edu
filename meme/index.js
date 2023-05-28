@@ -91,6 +91,4 @@ var theFoot = document.getElementById("foot");
 var theNav = document.querySelector("nav");
 var theContent = document.querySelector("main");
 
-setTimeout(function(){
-   window.location.reload(1);
-}, 1000);
+

@@ -64,7 +64,7 @@ menuBtn.close.onclick = function()
     menuDisplay();
 }
 
-if(window.location.pathname == "/edu/index.html")
+if(window.location.pathname == "/edu/index.html" || window.location.pathname == "/edu/")
 {
     var memeHref = 
     [

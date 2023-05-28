@@ -90,10 +90,3 @@ for(var i = 0; i<memeHref.length; i++)
 var theFoot = document.getElementById("foot");
 var theNav = document.querySelector("nav");
 var theContent = document.querySelector("main");
-
-var footDistToTop = window.innerHeight - theFoot.offsetHeight - theContent.offsetHeight - theNav.offsetHeight;
-
-if(footDistToTop > 0) {
-    theFoot.style.position = "relative";
-    theFoot.style.top = footDistToTop/2 + "px";
-}

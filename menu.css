@@ -204,7 +204,7 @@
 .meme-place {
     width: calc(2*var(--general-w));
     max-width: calc(100% - var(--small-btn-h) - var(--red-btn-h));
-    max-height: calc(100% - var(--op-h)/2 - 1.563rem - var(--op-h));
+    max-height: calc(50% - 3*var(--op-h)/2 - 1.563rem);
     height: auto;
 }
 

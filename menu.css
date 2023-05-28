@@ -333,12 +333,12 @@
     #menu {
         --option-height: 2.5rem;
     }
-    
 }
 
 @media (max-width: 480px) {
     #menu {
         --option-height: 3.3rem;
+        font-size: .9rem;
     }
     .art-space {
         padding: 0.625rem;
@@ -352,7 +352,7 @@
 }
 @media (max-width: 320px) {
     #menu {
-        --option-height: 2.5rem;
+        --option-height: 1.5rem;
         --nav-height: 2.5rem;
     }
     .menu-option {

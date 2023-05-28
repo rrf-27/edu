@@ -1,8 +1,12 @@
 var ft = document.getElementById("foot");
-var paragraphs = document.querrySelector("main");
-var nav = document.querrySelector("nav");
-var j = paragraphs.clientHeight;
+var paragraphs = document.getElementsByClassName("art-paragraph");
+var j = 0;
+for(var i = 0; i<paragraphs.length; i++)
+{
+    j = j + paragraphs[i].clientHeight;
+}
 
 if(window.innerHeight > j) {
-    ft.style.marginTop =  (window.innerHeight - paragraphs.clientHeight - nav.clientHeight/2)+ "px";
+    ft.style.position = "absolute";
+    ft.style.top =  (window.innerHeight - ft.clientHeight)+ "px";
 }

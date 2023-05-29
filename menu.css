@@ -323,7 +323,15 @@
   }
 
 
-
+@media (max-height:650px) {
+    #menu {
+        overflow-y: scroll;
+    }
+    .last-op {
+        position: relative;
+        top: auto;
+    }
+}
 @media (max-width: 450px) {
     #menu {
         --option-height: 3.7rem;

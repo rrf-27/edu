@@ -1,0 +1,66 @@
+
+
+ol {
+    padding-top: 1rem;
+}
+li {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.no-para {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+}
+
+.art-no-s {
+    max-height: 150px;
+    aspect-ratio: 1/1;
+    background: rgb(14, 39, 20);
+    color:rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.more-on-op {
+    position: fixed;
+    background: rgb(14, 39, 20);
+    display: none;
+    z-index: 100;
+}
+
+.morebox {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    animation: popup 0.3s ease forwards;
+}
+@keyframes popup {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    70% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+
+
+@media (max-width: 520px)
+{
+    main {
+        width: calc(100vw - 3rem);
+        margin: auto;
+    }
+    .art-no-s {
+        font-size: 2rem;
+    }
+}

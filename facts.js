@@ -45,12 +45,18 @@ function changeFact(index, i)
 }
 
 var quickBtn = document.getElementsByClassName("quick-btn");
-for(var i = 0; i<quickBtn.length; i++)
+
+function presentation(i)
 {
     quickBtn[i].onclick = () => {
         fact.content.innerHTML = quickFacts[0];
         facts_parent.style.display = "flex";
     }
+}
+
+for(var i = 0; i<quickBtn.length; i++)
+{
+    presentation(i);
 }
 window.addEventListener("keydown", (e) => {
     if(e.keyCode == 27) facts_parent.style.display = "none";

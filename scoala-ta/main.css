@@ -7,3 +7,6 @@ ul {
 li {
     margin: 1rem 0 1rem 2rem;
 }
+.art-paragraph:has(iframe) {
+    text-align: center;
+}

@@ -31,6 +31,19 @@ li {
     z-index: 100;
 }
 
+.art-no-s:nth-child(2) {
+    background-color: rgb(83, 120, 86);
+}
+.art-no-s:nth-child(3) {
+    background-color: rgb(33, 80, 44);
+}
+.art-no-s:nth-child(4) {
+    background-color: rgb(21, 123, 54);
+}
+.art-no-s:nth-child(5) {
+    background-color: rgb(21, 123, 54);
+}
+
 .morebox {
     width: 50%;
     height: auto;

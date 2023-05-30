@@ -1,4 +1,18 @@
+body {
+    background: #7DA03C;
+    color: rgb(255, 255, 255);
+}
+
 .the-grid {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
+    grid-gap: 10px;
+}
+
+.p-lines, .p-lines::before, .p-lines::after {
+    background: rgb(255, 255, 255);
+}
+#foot {
+    background: rgb(14, 39, 20);
+    border: none;
 }

@@ -86,6 +86,3 @@ for(var i = 0; i<memeHref.length; i++)
 {
     generateAuto(memeHref[i], i);
 }
-
-
-
